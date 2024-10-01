@@ -43,6 +43,7 @@ const Navbar = () => {
           {NavLinks.map((link) => {
             return (
               <a
+                key={link.id}
                 href={link.link}
                 className="inline-block mx-4 text-lg font-semibold"
               >
