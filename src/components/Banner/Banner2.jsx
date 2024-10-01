@@ -1,5 +1,4 @@
 import React from "react";
-import Banner1 from "../../assets/banner2.png";
 import { motion } from "framer-motion";
 import { SlideUp } from "../../animation/animate";
 
@@ -64,7 +63,7 @@ const Banner2 = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
-              src={Banner1}
+              src="banner2.png"
               alt=""
               className="w-[95%] md:w-full mx-auto"
             />

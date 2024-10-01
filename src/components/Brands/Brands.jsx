@@ -1,9 +1,4 @@
 import React from "react";
-import Brand1 from "../../assets/brand/1.png";
-import Brand2 from "../../assets/brand/2.png";
-import Brand3 from "../../assets/brand/3.png";
-import Brand4 from "../../assets/brand/4.png";
-import Brand5 from "../../assets/brand/5.png";
 import { motion } from "framer-motion";
 import { SlideLeft } from "../../animation/animate";
 const Brands = () => {
@@ -15,7 +10,7 @@ const Brands = () => {
             variants={SlideLeft(0.2)}
             initial="initial"
             whileInView={"animate"}
-            src={Brand1}
+            src="brand/1.png"
             alt="brand"
             className="w-[110px] md:w-[200px] "
           />
@@ -23,7 +18,7 @@ const Brands = () => {
             variants={SlideLeft(0.4)}
             initial="initial"
             whileInView={"animate"}
-            src={Brand2}
+            src="brand/2.png"
             alt="brand"
             className="w-[110px] md:w-[200px]"
           />
@@ -31,7 +26,7 @@ const Brands = () => {
             variants={SlideLeft(0.6)}
             initial="initial"
             whileInView={"animate"}
-            src={Brand3}
+            src="brand/3.png"
             alt="brand"
             className="w-[110px] md:w-[200px]"
           />
@@ -39,7 +34,7 @@ const Brands = () => {
             variants={SlideLeft(0.8)}
             initial="initial"
             whileInView={"animate"}
-            src={Brand4}
+            src="brand/4.png"
             alt="brand"
             className="w-[110px] md:w-[200px]"
           />
@@ -47,7 +42,7 @@ const Brands = () => {
             variants={SlideLeft(1.0)}
             initial="initial"
             whileInView={"animate"}
-            src={Brand5}
+            src="brand/5.png"
             alt="brand"
             className="w-[110px] md:w-[200px]"
           />

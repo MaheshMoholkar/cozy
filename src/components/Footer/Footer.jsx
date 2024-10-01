@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
 import { FaPhone } from "react-icons/fa6";
 import { LuMessageSquare } from "react-icons/lu";
 import { motion } from "framer-motion";
@@ -17,7 +16,7 @@ const Footer = () => {
           {/* Company info section */}
           <div className="space-y-4 font-semibold">
             <div className="flex items-center space-x-3">
-              <img src={Logo} alt="" className="w-6" />
+              <img src="Logo.png" alt="" className="w-6" />
               <p className="text-xl font-semibold">COZY</p>
             </div>
             <p>Pune, India</p>

@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
 import { motion } from "framer-motion";
 
 const NavLinks = [
@@ -35,7 +34,7 @@ const Navbar = () => {
       >
         {/* Logo section */}
         <div className="flex items-center gap-3">
-          <img src={Logo} alt="logo" className="w-10" />
+          <img src="Logo.png" alt="logo" className="w-10" />
           <span className="text-2xl font-bold">COZY</span>
         </div>
         {/* Link section */}
