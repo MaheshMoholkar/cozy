@@ -79,7 +79,7 @@ const Footer = () => {
 
         {/* bottom section */}
         <p className="text-center text-sm font-semibold  border-t-2 pt-5 mt-5">
-          &copy; 2023. All rights reserved
+          &copy; 2024. All rights reserved
         </p>
       </div>
     </motion.footer>
